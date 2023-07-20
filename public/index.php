@@ -10,5 +10,3 @@ require_once HELPERS . '/functions.php';
 require_once CONFIG . '/routes.php';
 
 new \wfm\App();
-
-debug(\wfm\Router::getRoutes());
